@@ -23,8 +23,8 @@ export function LanguageSwitch({ className }: LanguageSwitchProps) {
         className={cn(
           'rounded-full px-3 py-1.5 transition duration-300',
           locale === 'ar'
-            ? 'bg-bronze text-parchment shadow-sm'
-            : 'text-parchment/70 hover:text-wheat',
+            ? 'bg-bronze text-white shadow-sm'
+            : 'text-white/70 hover:text-white',
         )}
         aria-pressed={locale === 'ar'}
       >
@@ -36,8 +36,8 @@ export function LanguageSwitch({ className }: LanguageSwitchProps) {
         className={cn(
           'rounded-full px-3 py-1.5 transition duration-300',
           locale === 'en'
-            ? 'bg-bronze text-parchment shadow-sm'
-            : 'text-parchment/70 hover:text-wheat',
+            ? 'bg-bronze text-white shadow-sm'
+            : 'text-white/70 hover:text-white',
         )}
         aria-pressed={locale === 'en'}
       >

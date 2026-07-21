@@ -1,7 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { FaArrowRight, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { HeritageTexture } from '@/components/brand/HeritageTexture'
-import { IndustrialSilhouette } from '@/components/brand/IndustrialSilhouette'
 import { images } from '@/data/images'
 import { useLocale } from '@/i18n/LocaleProvider'
 import { cn } from '@/lib/cn'
@@ -43,9 +42,6 @@ export function Footer() {
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(141,98,54,0.25),_transparent_55%)]" />
         <HeritageTexture tone="dark" />
-        <div className="absolute inset-x-0 top-0 text-wheat/25">
-          <IndustrialSilhouette className="rotate-180" />
-        </div>
       </div>
 
       <div className="relative mx-auto grid max-w-6xl gap-10 px-6 pt-8 pb-16 lg:grid-cols-[1.2fr_0.8fr_1.2fr] lg:pt-10">

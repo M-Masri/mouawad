@@ -1,7 +1,6 @@
 import { motion, type Variants } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
 import { PhoneMock } from '@/components/ui/PhoneMock'
-import { HeritageTexture } from '@/components/brand/HeritageTexture'
 import { images } from '@/data/images'
 import { useLocale } from '@/i18n/LocaleProvider'
 
@@ -26,7 +25,12 @@ export function Features() {
       className="relative overflow-hidden bg-umber py-24 text-parchment sm:py-32"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(189,154,101,0.12),_transparent_50%)]" />
-      <HeritageTexture tone="dark" />
+      <img
+        src={images.features.pattern}
+        alt=""
+        aria-hidden
+        className="pointer-events-none absolute inset-0 size-full object-cover opacity-[0.22] mix-blend-soft-light"
+      />
 
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="mx-auto mb-10 max-w-2xl text-center lg:hidden">

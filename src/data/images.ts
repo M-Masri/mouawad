@@ -14,11 +14,15 @@ export const images = {
     browse: '/images/features-browse.webp',
     accent: '/images/features-accent.webp',
     order: '/images/features-order.webp',
+    pattern: '/images/pattern.webp',
   },
   audiences: {
     background: '/images/audiences-bg.webp',
     home: '/images/audiences-home.webp',
     traders: '/images/audiences-traders.webp',
     fresh: '/images/audiences-fresh.webp',
+  },
+  appCta: {
+    pattern: '/images/appcta-pattern.webp',
   },
 } as const

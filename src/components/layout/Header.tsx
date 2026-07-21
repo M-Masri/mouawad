@@ -50,7 +50,9 @@ export function Header() {
         <div className="hidden items-center gap-2.5 md:flex">
           <LanguageSwitch />
           <a href="#download">
-            <Button className="px-5 py-2 text-sm">{t.header.download}</Button>
+            <Button className="px-4 py-1.5 text-xs font-semibold shadow-md text-white hover:text-white">
+              {t.header.download}
+            </Button>
           </a>
         </div>
 
@@ -81,7 +83,9 @@ export function Header() {
               </a>
             ))}
             <a href="#download" onClick={() => setOpen(false)}>
-              <Button className="w-full">{t.header.download}</Button>
+              <Button className="w-full py-2.5 text-xs font-semibold text-white hover:text-white">
+                {t.header.download}
+              </Button>
             </a>
           </nav>
         </div>
