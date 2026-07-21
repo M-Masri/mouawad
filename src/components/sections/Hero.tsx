@@ -1,7 +1,6 @@
 import { siteConfig } from '@/data/site'
 import { images } from '@/data/images'
 import { HeritageTexture } from '@/components/brand/HeritageTexture'
-import { IndustrialSilhouette } from '@/components/brand/IndustrialSilhouette'
 import { StoreBadge } from '@/components/ui/StoreBadge'
 import { PhoneMock } from '@/components/ui/PhoneMock'
 import { useLocale } from '@/i18n/LocaleProvider'
