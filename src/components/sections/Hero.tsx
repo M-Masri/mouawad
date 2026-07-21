@@ -11,7 +11,7 @@ export function Hero() {
   const h = t.hero
 
   return (
-    <section className="relative isolate min-h-[100svh] overflow-hidden">
+    <section className="relative isolate min-h-[85svh] overflow-hidden">
       <img
         src={images.hero.background}
         alt=""
@@ -21,7 +21,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,_rgba(189,154,101,0.18),_transparent_45%)]" />
       <HeritageTexture tone="dark" className="opacity-[0.1]" />
 
-      <div className="relative mx-auto grid min-h-[100svh] max-w-6xl items-center gap-12 px-6 pt-36 pb-24 lg:grid-cols-[1.1fr_0.9fr] lg:pt-32">
+      <div className="relative mx-auto grid min-h-[85svh] max-w-6xl items-center gap-12 px-6 pt-28 pb-16 lg:grid-cols-[1.1fr_0.9fr] lg:pt-28">
         <div className="animate-rise space-y-7">
           <p
             className={cn(

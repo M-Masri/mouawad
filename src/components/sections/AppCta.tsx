@@ -1,5 +1,4 @@
 import { siteConfig } from '@/data/site'
-import { images } from '@/data/images'
 import { PhoneMock } from '@/components/ui/PhoneMock'
 import { StoreBadge } from '@/components/ui/StoreBadge'
 import { useLocale } from '@/i18n/LocaleProvider'
@@ -11,17 +10,10 @@ export function AppCta() {
   return (
     <section
       id="download"
-      className="relative isolate overflow-visible bg-umber py-16 sm:py-20 lg:py-28"
+      className="relative isolate overflow-visible bg-[#FAF8F4] py-16 sm:py-20 lg:py-28"
     >
-      <img
-        src={images.appCta.pattern}
-        alt=""
-        aria-hidden
-        className="pointer-events-none absolute inset-0 size-full object-cover opacity-[0.22] mix-blend-soft-light"
-      />
-
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative overflow-hidden rounded-[1.5rem] border border-wheat/20 bg-gradient-to-br from-espresso to-cocoa/40 shadow-2xl shadow-espresso/40 sm:rounded-[2rem]">
+        <div className="relative overflow-hidden rounded-[1.5rem] border border-wheat/10 bg-gradient-to-br from-espresso to-umber shadow-2xl shadow-espresso/50 sm:rounded-[2rem]">
           <div className="relative grid items-center gap-8 px-5 py-10 sm:gap-10 sm:px-8 sm:py-12 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-14">
             {/* Text first on mobile / tablet */}
             <div className="order-1 space-y-5 text-center sm:space-y-6 lg:order-2 lg:text-start">

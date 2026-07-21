@@ -22,23 +22,15 @@ export function Features() {
   return (
     <section
       id="features"
-      className="relative overflow-hidden bg-umber py-24 text-parchment sm:py-32"
+      className="relative overflow-hidden bg-[#FAF8F4] py-24 text-parchment sm:py-32"
     >
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(189,154,101,0.12),_transparent_50%)]" />
-      <img
-        src={images.features.pattern}
-        alt=""
-        aria-hidden
-        className="pointer-events-none absolute inset-0 size-full object-cover opacity-[0.22] mix-blend-soft-light"
-      />
-
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="mx-auto mb-10 max-w-2xl text-center lg:hidden">
           <p className="text-sm font-semibold tracking-widest text-bronze uppercase">
             {f.tag}
           </p>
-          <h2 className="mt-3 font-display text-3xl text-cream">{f.title}</h2>
-          <p className="mt-3 text-wheat/80">{f.subtitle}</p>
+          <h2 className="mt-3 font-display text-3xl text-espresso">{f.title}</h2>
+          <p className="mt-3 text-cocoa">{f.subtitle}</p>
         </div>
 
         <motion.div
@@ -53,14 +45,14 @@ export function Features() {
         >
           <motion.article
             variants={cardVariants}
-            className="relative min-h-[240px] overflow-hidden rounded-[2rem] border border-wheat/15 bg-espresso/50 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:min-h-0"
+            className="relative min-h-[240px] overflow-hidden rounded-[2rem] border border-wheat/10 bg-espresso lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:min-h-0"
           >
             <img
               src={images.features.browse}
               alt=""
               className="absolute inset-0 size-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/50 to-espresso/20" />
             <div className="relative flex h-full flex-col justify-end p-6">
               <p className="font-display text-2xl text-cream">{browse.title}</p>
               <p className="mt-2 text-sm leading-relaxed text-parchment/85">
@@ -71,7 +63,7 @@ export function Features() {
 
           <motion.article
             variants={cardVariants}
-            className="flex min-h-[220px] flex-col justify-center rounded-[2rem] border border-wheat/15 bg-bronze/30 p-6 sm:col-span-2 lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:min-h-0 lg:p-8"
+            className="flex min-h-[220px] flex-col justify-center rounded-[2rem] border border-wheat/10 bg-espresso p-6 sm:col-span-2 lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:min-h-0 lg:p-8"
           >
             <p className="text-xs font-semibold tracking-widest text-wheat uppercase">
               {f.tag}
@@ -86,9 +78,9 @@ export function Features() {
 
           <motion.article
             variants={cardVariants}
-            className="relative flex min-h-[280px] flex-col items-center justify-end overflow-hidden rounded-[2rem] border border-wheat/15 bg-espresso/60 px-4 pt-6 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:min-h-0"
+            className="relative flex min-h-[280px] flex-col items-center justify-end overflow-hidden rounded-[2rem] border border-wheat/10 bg-espresso px-4 pt-6 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:min-h-0"
           >
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,_rgba(141,98,54,0.35),_transparent_65%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,_rgba(83,49,22,0.55),_transparent_65%)]" />
             <div className="relative mb-3 scale-90 animate-float sm:scale-100">
               <PhoneMock variant="track" className="!w-[180px] sm:!w-[200px]" />
             </div>
@@ -102,26 +94,26 @@ export function Features() {
 
           <motion.article
             variants={cardVariants}
-            className="relative min-h-[180px] overflow-hidden rounded-[2rem] border border-wheat/15 bg-cocoa/40 lg:col-start-1 lg:row-start-3 lg:min-h-0"
+            className="relative min-h-[180px] overflow-hidden rounded-[2rem] border border-wheat/10 bg-espresso lg:col-start-1 lg:row-start-3 lg:min-h-0"
           >
             <img
               src={images.features.accent}
               alt=""
               className="absolute inset-0 size-full object-cover"
             />
-            <div className="absolute inset-0 bg-espresso/40" />
+            <div className="absolute inset-0 bg-espresso/70" />
           </motion.article>
 
           <motion.article
             variants={cardVariants}
-            className="relative min-h-[300px] overflow-hidden rounded-[2rem] border border-wheat/15 bg-espresso/50 sm:col-span-2 lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-2 lg:min-h-0"
+            className="relative min-h-[300px] overflow-hidden rounded-[2rem] border border-wheat/10 bg-espresso sm:col-span-2 lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-2 lg:min-h-0"
           >
             <img
               src={images.features.order}
               alt=""
               className="absolute inset-0 size-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-espresso/90 via-espresso/35 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/70 to-espresso/25" />
             <div className="relative flex h-full flex-col justify-end p-6 lg:p-8">
               <div>
                 <p className="font-display text-2xl text-cream sm:text-3xl">
@@ -136,7 +128,7 @@ export function Features() {
 
           <motion.article
             variants={cardVariants}
-            className="flex min-h-[200px] flex-col justify-between rounded-[2rem] border border-wheat/20 bg-gradient-to-br from-bronze to-cocoa p-6 lg:col-start-4 lg:row-start-3 lg:min-h-0"
+            className="flex min-h-[200px] flex-col justify-between rounded-[2rem] border border-wheat/10 bg-gradient-to-br from-cocoa to-espresso p-6 lg:col-start-4 lg:row-start-3 lg:min-h-0"
           >
             <div>
               <p className="text-xs font-semibold tracking-wide text-wheat uppercase">
