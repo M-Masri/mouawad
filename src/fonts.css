@@ -1,0 +1,72 @@
+@theme {
+  --font-sans: 'IBM Plex Sans Arabic', 'Figtree', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Roboto Slab', 'IBM Plex Sans Arabic', ui-serif, Georgia, serif;
+
+  --color-espresso: #140904;
+  --color-umber: #2b1408;
+  --color-cocoa: #533116;
+  --color-bronze: #8d6236;
+  --color-wheat: #bd9a65;
+  --color-parchment: #dabb84;
+
+  --animate-float: float 5s ease-in-out infinite;
+  --animate-rise: rise 0.8s ease-out both;
+}
+
+/* Scrollbar matches primary Download App button (bronze) */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8d6236 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8d6236;
+  border-radius: 9999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #bd9a65;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Engraved / distressed paper grain — brand heritage texture */
+@utility texture-engraved {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+}
+
+@utility texture-engraved-light {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 160px 160px;
+}
