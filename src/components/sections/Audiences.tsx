@@ -49,7 +49,7 @@ export function Audiences() {
           <p className="text-sm font-semibold tracking-[0.3em] text-bronze uppercase">
             Mouawad
           </p>
-          <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-parchment sm:text-5xl">
+          <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-cream sm:text-5xl">
             {a.title}
           </h2>
           <div className="mx-auto mt-5 h-px w-20 bg-bronze/60" />
@@ -110,7 +110,7 @@ export function Audiences() {
                         featured ? 'bg-wheat' : 'bg-bronze group-hover:w-16 group-hover:bg-wheat',
                       )}
                     />
-                    <h3 className="font-display text-2xl text-parchment sm:text-3xl">
+                    <h3 className="font-display text-2xl text-cream sm:text-3xl">
                       {item.title}
                     </h3>
                     <p className="mt-3 max-w-xs text-sm leading-relaxed text-parchment/80 opacity-90 sm:text-base">

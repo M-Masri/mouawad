@@ -7,12 +7,12 @@ import { cn } from '@/lib/cn'
 export function Faq() {
   const { t, locale } = useLocale()
   const faq = t.faq
-  const [openId, setOpenId] = useState<string | null>('0-0')
+  const [openId, setOpenId] = useState<string | null>(null)
 
   return (
     <section
       id="faq"
-      className="relative overflow-hidden bg-parchment py-24 text-espresso sm:py-32"
+      className="relative overflow-hidden bg-[#FAF8F4] py-24 text-espresso sm:py-32"
     >
       <HeritageTexture tone="light" />
 

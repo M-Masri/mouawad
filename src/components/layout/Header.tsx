@@ -18,47 +18,39 @@ export function Header() {
   }, [])
 
   return (
-    <header
-      className={cn(
-        'fixed inset-x-0 top-0 z-50 transition duration-500',
-        scrolled ? 'py-3' : 'py-5',
-      )}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 px-4 py-2 transition duration-500 sm:px-6">
       <div
         className={cn(
-          'mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 transition duration-500 sm:px-6',
+          'mx-auto flex max-w-6xl items-center justify-between gap-4 rounded-[1.5rem] border px-3 py-2 transition duration-500 sm:rounded-[2rem] sm:px-5',
           scrolled
-            ? 'rounded-[2rem] border border-parchment/15 bg-espresso/80 px-4 py-3 shadow-xl shadow-espresso/40 backdrop-blur-xl sm:rounded-[2.5rem] sm:px-6'
-            : 'bg-transparent',
+            ? 'border-parchment/15 bg-espresso/80 shadow-xl shadow-espresso/40 backdrop-blur-xl'
+            : 'border-transparent bg-transparent shadow-none',
         )}
       >
         <a href="#top" className="group flex shrink-0 items-center">
           <img
             src={images.logo}
             alt={t.brand.primary}
-            className="h-14 w-auto object-contain transition duration-300 group-hover:opacity-90 sm:h-16"
+            className="h-11 w-auto object-contain transition duration-300 group-hover:opacity-90 sm:h-12"
           />
         </a>
 
-        <nav className="hidden items-center gap-8 lg:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {t.nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className={cn(
-                'font-medium text-parchment/75 transition duration-300 hover:text-wheat',
-                scrolled ? 'text-base' : 'text-lg',
-              )}
+              className="text-base font-medium text-parchment/75 transition duration-300 hover:text-wheat"
             >
               {item.label}
             </a>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-2.5 md:flex">
           <LanguageSwitch />
           <a href="#download">
-            <Button>{t.header.download}</Button>
+            <Button className="px-5 py-2 text-sm">{t.header.download}</Button>
           </a>
         </div>
 
@@ -66,7 +58,7 @@ export function Header() {
           <LanguageSwitch />
           <button
             type="button"
-            className="inline-flex size-10 items-center justify-center rounded-full border border-parchment/20 text-parchment"
+            className="inline-flex size-9 items-center justify-center rounded-full border border-parchment/20 text-parchment"
             aria-label={open ? t.header.closeMenu : t.header.openMenu}
             onClick={() => setOpen((v) => !v)}
           >
@@ -76,13 +68,13 @@ export function Header() {
       </div>
 
       {open ? (
-        <div className="mx-4 mt-2 rounded-2xl border border-parchment/15 bg-espresso/95 p-4 backdrop-blur-xl md:hidden">
+        <div className="mx-4 mt-2 rounded-2xl border border-parchment/15 bg-espresso/95 p-4 backdrop-blur-xl sm:mx-6 md:hidden">
           <nav className="flex flex-col gap-3">
             {t.nav.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="rounded-xl px-3 py-2 text-parchment/90 hover:bg-umber"
+                className="rounded-xl px-3 py-2 text-base text-parchment/90 hover:bg-umber"
                 onClick={() => setOpen(false)}
               >
                 {item.label}

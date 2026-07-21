@@ -4,21 +4,21 @@
 export const images = {
   logo: '/images/mouawad_factories_logo_transparent.webp',
   hero: {
-    background: '/images/bakery-hero.jpg',
+    background: '/images/bakery-hero.webp',
   },
   about: {
-    primary: '/images/bakery-about-1.jpg',
-    secondary: '/images/bakery-about-2.jpg',
+    primary: '/images/bakery-about-1.webp',
+    secondary: '/images/bakery-about-2.webp',
   },
   features: {
-    browse: '/images/features-browse.jpg',
-    accent: '/images/features-accent.jpg',
-    order: '/images/features-order.jpg',
+    browse: '/images/features-browse.webp',
+    accent: '/images/features-accent.webp',
+    order: '/images/features-order.webp',
   },
   audiences: {
-    background: '/images/audiences-bg.jpg',
-    home: '/images/audiences-home.jpg',
-    traders: '/images/audiences-traders.jpg',
-    fresh: '/images/audiences-fresh.jpg',
+    background: '/images/audiences-bg.webp',
+    home: '/images/audiences-home.webp',
+    traders: '/images/audiences-traders.webp',
+    fresh: '/images/audiences-fresh.webp',
   },
 } as const

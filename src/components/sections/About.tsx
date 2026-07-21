@@ -26,7 +26,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-parchment py-24 text-espresso sm:py-32"
+      className="relative overflow-hidden bg-[#FAF8F4] py-24 text-espresso sm:py-32"
     >
       <HeritageTexture tone="light" />
 

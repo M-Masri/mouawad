@@ -33,7 +33,7 @@ export function Features() {
           <p className="text-sm font-semibold tracking-widest text-bronze uppercase">
             {f.tag}
           </p>
-          <h2 className="mt-3 font-display text-3xl text-parchment">{f.title}</h2>
+          <h2 className="mt-3 font-display text-3xl text-cream">{f.title}</h2>
           <p className="mt-3 text-wheat/80">{f.subtitle}</p>
         </div>
 
@@ -58,7 +58,7 @@ export function Features() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-espresso/80 via-espresso/20 to-transparent" />
             <div className="relative flex h-full flex-col justify-end p-6">
-              <p className="font-display text-2xl text-parchment">{browse.title}</p>
+              <p className="font-display text-2xl text-cream">{browse.title}</p>
               <p className="mt-2 text-sm leading-relaxed text-parchment/85">
                 {browse.text}
               </p>
@@ -72,7 +72,7 @@ export function Features() {
             <p className="text-xs font-semibold tracking-widest text-wheat uppercase">
               {f.tag}
             </p>
-            <h2 className="mt-3 font-display text-2xl leading-snug text-parchment sm:text-3xl">
+            <h2 className="mt-3 font-display text-2xl leading-snug text-cream sm:text-3xl">
               {f.title}
             </h2>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-wheat/85">
@@ -89,7 +89,7 @@ export function Features() {
               <PhoneMock variant="track" className="!w-[180px] sm:!w-[200px]" />
             </div>
             <div className="relative z-10 w-full pb-5 text-center">
-              <p className="font-display text-lg text-parchment">{track.title}</p>
+              <p className="font-display text-lg text-cream">{track.title}</p>
               <p className="mt-1 text-xs leading-relaxed text-wheat/80">
                 {track.text}
               </p>
@@ -120,7 +120,7 @@ export function Features() {
             <div className="absolute inset-0 bg-gradient-to-t from-espresso/90 via-espresso/35 to-transparent" />
             <div className="relative flex h-full flex-col justify-end p-6 lg:p-8">
               <div>
-                <p className="font-display text-2xl text-parchment sm:text-3xl">
+                <p className="font-display text-2xl text-cream sm:text-3xl">
                   {order.title}
                 </p>
                 <p className="mt-2 max-w-sm text-sm leading-relaxed text-parchment/85">
@@ -138,7 +138,7 @@ export function Features() {
               <p className="text-xs font-semibold tracking-wide text-wheat uppercase">
                 {f.tag}
               </p>
-              <h3 className="mt-2 font-display text-xl text-parchment">
+              <h3 className="mt-2 font-display text-xl text-cream">
                 {wholesale.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-parchment/80">
@@ -146,7 +146,10 @@ export function Features() {
               </p>
             </div>
             <a href="#download" className="mt-5 block">
-              <Button variant="light" className="w-full rounded-full">
+              <Button
+                variant="light"
+                className="w-full rounded-full !bg-cream text-espresso shadow-md hover:!bg-wheat hover:text-espresso"
+              >
                 {f.cta}
               </Button>
             </a>

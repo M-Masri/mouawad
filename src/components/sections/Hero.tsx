@@ -25,7 +25,7 @@ export function Hero() {
         <div className="animate-rise space-y-7">
           <p
             className={cn(
-              'font-display font-black leading-none text-parchment',
+              'font-display font-black leading-none text-cream',
               locale === 'en'
                 ? 'text-3xl tracking-[0.08em] uppercase sm:text-5xl lg:text-6xl'
                 : 'text-4xl sm:text-5xl lg:text-6xl',

@@ -24,7 +24,7 @@ export function AppCta() {
           <div className="relative grid items-center gap-8 px-5 py-10 sm:gap-10 sm:px-8 sm:py-12 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-14">
             {/* Text first on mobile / tablet */}
             <div className="order-1 space-y-5 text-center sm:space-y-6 lg:order-2 lg:text-start">
-              <h2 className="font-display text-2xl font-bold tracking-tight text-parchment sm:text-3xl md:text-4xl">
+              <h2 className="font-display text-2xl font-bold tracking-tight text-cream sm:text-3xl md:text-4xl">
                 {c.title}
               </h2>
               <div className="mx-auto h-px w-16 bg-bronze/50 lg:mx-0" />
