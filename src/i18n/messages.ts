@@ -95,12 +95,12 @@ export type Messages = {
 
 const ar: Messages = {
   meta: {
-    title: 'مخابز معوض | Mouawad Factories',
+    title: 'مصانع معوض | Mouawad Factories',
     description:
-      'منصة مخابز معوض — تسوّق الخبز والمنتجات الطازجة أونلاين عبر التطبيق للزبائن والتجّار.',
+      'منصة مصانع معوض — تسوّق الخبز والمنتجات الطازجة أونلاين عبر التطبيق للزبائن والتجّار.',
   },
   brand: {
-    primary: 'مخابز معوض',
+    primary: 'مصانع معوض',
     secondary: 'Mouawad Factories',
   },
   nav: [
@@ -115,7 +115,7 @@ const ar: Messages = {
     closeMenu: 'إغلاق القائمة',
   },
   hero: {
-    brand: 'مخابز معوض',
+    brand: 'مصانع معوض',
     headline: 'خبز طازج… وطلبك من التطبيق',
     subtitle:
       'تعرّف على علامتنا، وحَمّل التطبيق لتتصفح المنتجات وتطلب بسهولة — للمنزل وللتجار بالجملة.',
@@ -124,9 +124,9 @@ const ar: Messages = {
   },
   about: {
     tag: 'من نحن',
-    title: 'مخبز واحد… وثقتان',
+    title: 'مصنع واحد… وثقتان',
     paragraphs: [
-      'مخابز معوض منصة متكاملة للمخبز: نقدّم للزبائن تجربة تسوق يومية دافئة، وللتجار طلبات جملة واضحة ومنظمة.',
+      'مصانع معوض منصة متكاملة للمخبز: نقدّم للزبائن تجربة تسوق يومية دافئة، وللتجار طلبات جملة واضحة ومنظمة.',
       'هذا الموقع يعرّفك بالعلامة. أما الطلب والمتابعة فيحدثان عبر تطبيقنا — بسيط، موثوق، وجاهز للاستخدام اليومي.',
     ],
     points: [
@@ -195,7 +195,7 @@ const ar: Messages = {
         heading: 'للزبائن',
         items: [
           {
-            q: 'كيف أطلب من مخابز معوض؟',
+            q: 'كيف أطلب من مصانع معوض؟',
             a: 'حمّل التطبيق، تصفّح المنتجات، أضف ما تريد للسلة، ثم أكمل الطلب واختر تفاصيل التوصيل.',
           },
           {
@@ -229,13 +229,13 @@ const ar: Messages = {
   },
   appCta: {
     title: 'ابدأ الآن',
-    subtitle: 'حمّل تطبيق مخابز معوض وتسوّق أونلاين — للمنزل أو لمحلك.',
+    subtitle: 'حمّل تطبيق مصانع معوض وتسوّق أونلاين — للمنزل أو لمحلك.',
     playStore: 'Google Play',
     appStore: 'App Store',
   },
   footer: {
     blurb:
-      'مخابز معوض — علامة مخبوزات حديثة، وتطبيق يسهّل التسوق للزبائن والتجار.',
+      'مصانع معوض — علامة مخبوزات حديثة، وتطبيق يسهّل التسوق للزبائن والتجار.',
     linksTitle: 'روابط سريعة',
     downloadLink: 'حمّل التطبيق',
     contactTitle: 'تواصل معنا',
@@ -266,7 +266,7 @@ const ar: Messages = {
     steps: ['تم التأكيد', 'جاري التحضير', 'في الطريق'],
   },
   notFound: {
-    title: 'الصفحة غير موجودة | مخابز معوض',
+    title: 'الصفحة غير موجودة | مصانع معوض',
     heading: 'الصفحة غير موجودة',
     body: 'يبدو أن الرابط غير صحيح أو الصفحة نُقلت.',
     back: 'العودة للرئيسية',
@@ -275,13 +275,13 @@ const ar: Messages = {
 
 const en: Messages = {
   meta: {
-    title: 'Mouawad Factories | مخابز معوض',
+    title: 'Mouawad Factories | مصانع معوض',
     description:
       'Mouawad Factories — shop fresh bakery products online through the app, for everyday customers and wholesale traders.',
   },
   brand: {
     primary: 'Mouawad Factories',
-    secondary: 'مخابز معوض',
+    secondary: 'مصانع معوض',
   },
   nav: [
     { label: 'About', href: '#about' },
@@ -304,7 +304,7 @@ const en: Messages = {
   },
   about: {
     tag: 'About us',
-    title: 'One bakery… two kinds of trust',
+    title: 'One factory… two kinds of trust',
     paragraphs: [
       'Mouawad Factories is a full bakery platform: a warm daily shopping experience for customers, and clear wholesale ordering for traders.',
       'This website introduces the brand. Ordering and tracking happen in our app — simple, reliable, and ready for everyday use.',
